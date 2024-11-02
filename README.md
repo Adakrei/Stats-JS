@@ -7,6 +7,11 @@ JS/TS Performance Monitor
 pnpm i @adakrei/stats
 ```
 
+## Demo
+[Basic](https://adakrei.github.io/Stats-JS/examples/basic.html)  
+[Custom](https://adakrei.github.io/Stats-JS/examples/custom.html)  
+[Stress](https://adakrei.github.io/Stats-JS/examples/stress.html)  
+
 ## Usage
 Here is a simple example to use Stats-JS
 
