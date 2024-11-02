@@ -65,7 +65,7 @@ class Panel {
 }
 
 class Stats {
-    static version = '1.0.0';
+    static version = '1.0.1';
     performanceInfo = self.performance;
     mode = 0;
     container;
@@ -131,4 +131,4 @@ class Stats {
     }
 }
 
-export { Stats };
+export { Panel, Stats };

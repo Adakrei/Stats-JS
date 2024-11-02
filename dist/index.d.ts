@@ -20,4 +20,17 @@ declare class Stats {
     private showPanel;
 }
 
-export { Stats };
+declare class Panel {
+    private name;
+    private fg;
+    private bg;
+    private min;
+    private max;
+    private round;
+    private sizeOptions;
+    dom: HTMLCanvasElement;
+    constructor(name: string, fg: string, bg: string);
+    update(value: number, maxValue: number): void;
+}
+
+export { Panel, Stats };
